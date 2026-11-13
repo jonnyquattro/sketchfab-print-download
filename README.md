@@ -2,7 +2,15 @@
 
 **Experimental software for authorized reference, evaluation and interoperability work.** Intended for models you own or have explicit permission to export and use. Public visibility alone is not permission to download, reproduce, print or redistribute a model.
 
+**Code provided as an experimental reference implementation. Designed to work with Tampermonkey in Firefox and the included local helper; it is not a standalone browser extension.**
+
 A Firefox/Tampermonkey button that sends a public Sketchfab model to a local converter and downloads a ZIP containing **STL, OBJ and GLB** files. It uses the viewer assets without Sketchfab registration, login, API keys or browser cookies. That technical capability does not establish that a particular download is permitted.
+
+## Disclaimer and user responsibility
+
+This code is provided for reference and evaluation, **as is**, without warranties of any kind, under the [MIT license](LICENSE). Use, modification and execution are at your own risk. You are responsible for obtaining all necessary permissions, complying with applicable laws and platform terms, and verifying any downloaded files or printed results.
+
+To the maximum extent permitted by applicable law, the authors, contributors and maintainers assume no responsibility or liability for use or misuse of this code, downloaded content, resulting prints, loss of data or other damages arising from its use. This notice does not exclude liability that cannot legally be excluded and does not authorize infringement or override third-party rights. Describing the code as a reference implementation does not change the permissions granted by the MIT license.
 
 ## Responsible use
 

@@ -1,14 +1,17 @@
 // ==UserScript==
 // @name         Sketchfab STL / OBJ Download (Local Helper)
 // @namespace    local.sketchfabdl
-// @version      1.0.0
-// @description  Download public viewer geometry as STL, OBJ and GLB using your local helper. No Sketchfab login.
+// @version      1.0.1
+// @description  Experimental reference code for authorized STL/OBJ/GLB export with Tampermonkey and a local helper. Use at your own risk.
 // @match        https://sketchfab.com/*
 // @grant        GM_xmlhttpRequest
 // @connect      127.0.0.1
 // @noframes
 // @run-at       document-idle
 // ==/UserScript==
+
+// Provided AS IS under the MIT license. Use only with the necessary permissions.
+// See README.md and LICENSE for user responsibilities and liability limitations.
 
 (() => {
     'use strict';
